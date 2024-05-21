@@ -1,0 +1,22 @@
+{
+  "name": "vue-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "vue",
+    "course"
+  ],
+  "author": "Oleksandr Bilokrys",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "prettier": "3.2.5"
+  }
+}
