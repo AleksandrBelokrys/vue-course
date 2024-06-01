@@ -1,9 +1,18 @@
 <template>
   <div id="app">
+    <CardComponent/>
   </div>
 </template>
 
 <script>
+import CardComponent from './components/CardComponent.vue'
+
+export default {
+  name: 'App',
+  components: {
+    CardComponent
+  }
+}
 </script>
 
 <style>
