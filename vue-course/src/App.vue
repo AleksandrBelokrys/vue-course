@@ -1,9 +1,18 @@
 <template>
   <div id="app">
+    <BtnGroup></BtnGroup>
   </div>
 </template>
 
 <script>
+import BtnGroup from './components/BtnGroup.vue';
+
+export default {
+  name: 'App',
+  components: {
+    BtnGroup,
+  }
+};
 </script>
 
 <style>
