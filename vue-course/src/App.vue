@@ -1,9 +1,22 @@
 <template>
   <div id="app">
+    <ListGroup>
+      <li class="list-group-item"><p>one</p></li>
+      <li class="list-group-item"><p>two</p></li>
+      <li class="list-group-item"><p>three</p></li>
+    </ListGroup>
   </div>
 </template>
 
 <script>
+import ListGroup from './components/ListGroup.vue';
+
+export default {
+  name: 'App',
+  components: {
+    ListGroup
+  }
+};
 </script>
 
 <style>
